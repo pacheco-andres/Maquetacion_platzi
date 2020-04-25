@@ -1,0 +1,76 @@
+/* coman +/ para hacer el cometario
+reglas
+selectrores
+declaraciones
+propiedades 
+valores */
+
+
+body{
+    font-family: 'Source Sans Pro' , sans-serif
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Fjalla One', sans-serif;  /* Estilo de fuente*/
+    font-weight: normal;
+}
+
+h1{
+    font-size: 40px;              /*Tamño ede fuentes */
+    line-height: 1.5em;           /*Alto e linea */
+    letter-spacing: -.2 px;        /* separacion e letras*/
+    color: white;
+}
+h1 strong {
+    color: #026fff   ;
+}
+
+.hero{
+    height: 300px;    /*Alto */
+    background-image: url('../images/hero.jpg'); /* Imagen de fondo */
+    background-color: #1b2127;                 /* color dde fondo*/
+    background-size: 500px 300px;                /*  tamaño de imagen*/
+    background-repeat: no-repeat;                /* Esto es para que no se repita la imgen */
+    background-position-x: right;                /* Posicion e la igen en este caso esta a la derecha y tambien eje x y y x=orizintal y=vertical */
+}
+
+.project {
+	/*border-top: 10px solid red;     /es para darle color al borde de parte de arriba 
+	border-right: 10px solid green;   /es para arle color al borde del lao dereho
+	border-left:10px solid orange;    /es para darle color al borde del lado izquierdo 
+	boder-botton:10px pink;           /es para arle color al borde de abajo 
+	border-top-color: red;
+	border-top-width: 15px;
+	border-top-style: solid;*/
+	border: 1px solid gray;
+	border-radius: 10px;
+	/*border-top-left-radius: 50px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;*/
+	margin-bottom: 15px;  /* espacio entre elementos*/
+	/*margin-right: 0%
+	margin-left:
+	margin-top:;*/
+	padding: 20px; /* para darle */
+	
+}
+
+.project-details{
+    width: 500px;  /*Ancho */
+}
+
+.project-imageContainer{
+    width: 500px
+}
+
+.header{
+    background-color: #1b2127;
+    color: white /* Le a color a los textos*/
+}
+
+.header a { /*  este .header a es un selctor desendente*/
+    color: white;
+    text-decoration: none /* Esto quiere decir que no quiere ninguna decoracion en el texto por ejemplo subrayao*/
+
+}
